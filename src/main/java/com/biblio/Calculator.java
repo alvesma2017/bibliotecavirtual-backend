@@ -10,8 +10,8 @@ public class Calculator {
     // Método principal para testar a funcionalidade
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int result = calculator.add(2, 2);
-        System.out.println("A soma de 2 e 2 é: " + result); // Deve imprimir "A soma de 2 e 3 é: 5"
+        int result = calculator.add(2, 10);
+        System.out.println("A soma de 2 e 10 é: " + result); // Deve imprimir "A soma de 2 e 3 é: 5"
     }
 }
 
